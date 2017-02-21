@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sketchpad / Etch-A-Sketch </title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+	<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+</head>
+
+<body>
+	<h1 style='text-align: center; font-family: "Trebuchet MS", Helvetica, sans-serif;'> Sketchpad / Etch-A-Sketch</h1>
+	<form>
+	<div id="navbar">
+		<fieldset id='fs'>
+			<legend>Color options:</legend>
+				<button type="button" class='button' id='default'>Default</button>
+				<button type="button" class='button' id='random'>Random</button>
+				<button type="button" class='button' id='trail'>Trail</button>
+		</fieldset>
+	</div>
+	
+	<div id="grid_controls">
+		<button type="button" class='button' id='clear'>New Grid</button>
+		<button type="button" class='button' id='reset'>Reset Grid</button>
+	</div>
+	
+	<div class="grid" style="text-align: center;">
+	</div>
+	
+	<footer>
+		<p>A jQuery/JavaScript mini project</p>
+	</footer>
+	
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

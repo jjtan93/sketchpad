@@ -1,0 +1,70 @@
+*
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.grid {
+    margin: auto;
+    width: 50%;
+	height: 90%;
+    padding: 10px;
+	margin-top: 15px;
+}
+
+.square
+{
+	display: inline-block;
+	background-color: black;
+    opacity: .1;
+	margin-top: -6px;
+	margin-left: -1px;
+	margin-right: -1px;
+	border: 1px dotted rgba(255, 255, 255, 1);
+}
+
+p
+{
+	
+	text-align: center;
+}
+
+#navbar
+{
+	width: 100%;
+	text-align: center; 
+}
+
+#fs
+{
+	width: 15%; 
+	margin: auto;
+}
+
+#grid_controls
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.button
+{
+	display: inline-block;
+	border: 1px solid #323232;
+	border-radius: 2px;
+	width: auto; 
+	height: 30px; 
+	font-weight: bold; 
+	color: black; 
+	background-color: #f2f2f2; 
+	line-height: 30px; 
+	text-align: center; 
+}
+
+.button:hover
+{
+	cursor: pointer;
+	border: 2px solid #4387fd;
+	/* Prevents the button from moving when the border is applied */
+	margin:-1px;
+}
